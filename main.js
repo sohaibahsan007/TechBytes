@@ -18,5 +18,4 @@ else
     bubbleShape = 'circle';
 }
 
-bounceBubbles();
-
+bounceName();
