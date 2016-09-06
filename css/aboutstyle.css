@@ -228,3 +228,10 @@ svg {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+.author
+{
+	max-width:100%;
+	max-height:100%;
+	border-radius:880px;
+	
+}
