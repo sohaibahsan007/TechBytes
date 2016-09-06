@@ -1,15 +1,23 @@
 body {
-  background: #673ab7;
-  background-size:100%;
-  color: white;
-  text-align: center;
+
+
+text-align:center;
+  
 }
 
 a {
   color: inherit;
 }
 
+h1, h2, h3, h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
+h1 {
+  font-size: 3em;
+}
 
 .menu {
   -webkit-filter: url("#shadowed-goo");
@@ -17,13 +25,16 @@ a {
 }
 
 .menu-item, .menu-open-button {
-  background: #00bcd4;
+  background: gray;
   border-radius: 100%;
+  min-height:48px;
+  min-width:48px;
   width: 80px;
   height: 80px;
-  margin-left: -240px;
+  margin-left: -50px;
   position: absolute;
-  top: 30px;
+  top: 60px;
+  max-width:100%;
   color: white;
   text-align: center;
   line-height: 80px;
@@ -86,11 +97,12 @@ a {
 .menu {
   position: absolute;
   left: 50%;
-  margin-left: -80px;
+  max-width:100%;
+  margin-left: -190px;
   padding-top: 20px;
-  padding-left: 80px;
-  width: 650px;
-  height: 150px;
+  padding-left: 190px;
+  width: 380px;
+  height: 250px;
   box-sizing: border-box;
   font-size: 20px;
   text-align: left;
@@ -98,46 +110,27 @@ a {
 
 .menu-item:hover {
   background: white;
-  color: #00bcd4;
+  color: #ff4081;
 }
 .menu-item:nth-child(3) {
-	
-	background-repeat: no-repeat;
-	 background-position: center center;
-  background-size: 60px;
-
-  background-image: url("1472668628_Blogger.svg");
-  -webkit-transition-duration: 180ms;
-          transition-duration: 180ms;
+  -webkit-transition-duration: 70ms;
+          transition-duration: 70ms;
 }
 .menu-item:nth-child(4) {
-	
-	background-repeat: no-repeat;
-	 background-position: center center;
-  background-size: 60px;
-  background-image: url("1472669234_65-fb_messenger.svg");
-  -webkit-transition-duration: 180ms;
-          transition-duration: 180ms;
+  -webkit-transition-duration: 130ms;
+          transition-duration: 130ms;
 }
 .menu-item:nth-child(5) {
-	 
-
-	background-repeat: no-repeat;
-	 background-position: center center;
-  background-size: 60px;
-  background-image: url("1472668737_Play_Store.svg");
-  -webkit-transition-duration: 180ms;
-          transition-duration: 180ms;
+  -webkit-transition-duration: 190ms;
+          transition-duration: 190ms;
 }
 .menu-item:nth-child(6) {
-	 
-  
-	background-repeat: no-repeat;
-	 background-position: center center;
- background-size: 60px;
-  background-image: url("1472668946_Twitter.svg");
-  -webkit-transition-duration: 180ms;
-          transition-duration: 180ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+.menu-item:nth-child(7) {
+  -webkit-transition-duration: 310ms;
+          transition-duration: 310ms;
 }
 
 .menu-open-button {
@@ -166,41 +159,58 @@ a {
 }
 
 .menu-open:checked ~ .menu-item {
-  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-          transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+          transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
 }
 .menu-open:checked ~ .menu-item:nth-child(3) {
-  -webkit-transition-duration: 190ms;
-          transition-duration: 190ms;
-  -webkit-transform: translate3d(110px, 0, 0);
-          transform: translate3d(110px, 0, 0);
+	background-repeat: no-repeat;
+	 background-position: center center;
+  background-size: 60px;
+
+  background-image: url("1472752540_icon_275.svg");
+  -webkit-transition-duration: 160ms;
+          transition-duration: 160ms;
+  -webkit-transform: translate3d(114.42548px, 11.48084px, 0);
+          transform: translate3d(114.42548px, 11.48084px, 0);
 }
 .menu-open:checked ~ .menu-item:nth-child(4) {
-  -webkit-transition-duration: 290ms;
-          transition-duration: 290ms;
-  -webkit-transform: translate3d(220px, 0, 0);
-          transform: translate3d(220px, 0, 0);
+	background-repeat: no-repeat;
+	 background-position: center center;
+  background-size: 60px;
+  background-image: url("1472752709_facebook_social_connect_account_profile.svg");
+  -webkit-transition-duration: 240ms;
+          transition-duration: 240ms;
+  -webkit-transform: translate3d(77.18543px, 85.2491px, 0);
+          transform: translate3d(77.18543px, 85.2491px, 0);
 }
 .menu-open:checked ~ .menu-item:nth-child(5) {
-  -webkit-transition-duration: 390ms;
-          transition-duration: 390ms;
-  -webkit-transform: translate3d(330px, 0, 0);
-          transform: translate3d(330px, 0, 0);
+	background-repeat: no-repeat;
+	 background-position: center center;
+  background-size: 60px;
+  background-image: url("1472752993_5345_-_Google_Play.svg");
+  -webkit-transition-duration: 320ms;
+          transition-duration: 320ms;
+  -webkit-transform: translate3d(0.09158px, 114.99996px, 0);
+          transform: translate3d(0.09158px, 114.99996px, 0);
 }
 .menu-open:checked ~ .menu-item:nth-child(6) {
-  -webkit-transition-duration: 490ms;
-          transition-duration: 490ms;
-  -webkit-transform: translate3d(440px, 0, 0);
-          transform: translate3d(440px, 0, 0);
+	background-repeat: no-repeat;
+	 background-position: center center;
+ background-size: 60px;
+  background-image: url("1472752873_twitter_social_connect_account_profile.svg");
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+  -webkit-transform: translate3d(-77.04956px, 85.37192px, 0);
+          transform: translate3d(-77.04956px, 85.37192px, 0);
+
+		  }
+.menu-open:checked ~ .menu-item:nth-child(7) {
+	background-repeat: no-repeat;
+	 background-position: center center;
+ background-size: 60px;
+  background-image: url("1472752143_users-10.svg");
+  -webkit-transition-duration: 480ms;
+          transition-duration: 480ms;
+  -webkit-transform: translate3d(-114.40705px, 11.66307px, 0);
+          transform: translate3d(-114.40705px, 11.66307px, 0);
 }
-.footer {
-  position: absolute;
-  right: 0;
-  bottom:0;
-  left: 0;
-  font-family:'Hind', sans-serif;
-  font-size: 24px;
-  color: #0000;
-  padding: 1rem;
- 
-  text-align: center;
