@@ -167,7 +167,7 @@ h1 {
 	 background-position: center center;
   background-size: 60px;
 
-  background-image: url("1472752540_icon_275.svg");
+  background-image: url("blogger.svg");
   -webkit-transition-duration: 160ms;
           transition-duration: 160ms;
   -webkit-transform: translate3d(114.42548px, 11.48084px, 0);
@@ -177,7 +177,7 @@ h1 {
 	background-repeat: no-repeat;
 	 background-position: center center;
   background-size: 60px;
-  background-image: url("1472752709_facebook_social_connect_account_profile.svg");
+  background-image: url("facebook.svg");
   -webkit-transition-duration: 240ms;
           transition-duration: 240ms;
   -webkit-transform: translate3d(77.18543px, 85.2491px, 0);
@@ -187,7 +187,7 @@ h1 {
 	background-repeat: no-repeat;
 	 background-position: center center;
   background-size: 60px;
-  background-image: url("1472752993_5345_-_Google_Play.svg");
+  background-image: url("android.svg");
   -webkit-transition-duration: 320ms;
           transition-duration: 320ms;
   -webkit-transform: translate3d(0.09158px, 114.99996px, 0);
@@ -197,7 +197,7 @@ h1 {
 	background-repeat: no-repeat;
 	 background-position: center center;
  background-size: 60px;
-  background-image: url("1472752873_twitter_social_connect_account_profile.svg");
+  background-image: url("twitter.svg");
   -webkit-transition-duration: 400ms;
           transition-duration: 400ms;
   -webkit-transform: translate3d(-77.04956px, 85.37192px, 0);
